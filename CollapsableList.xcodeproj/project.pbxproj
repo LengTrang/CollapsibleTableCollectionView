@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C11FB2BF1CB0DC44006A59B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2BE1CB0DC44006A59B7 /* AppDelegate.swift */; };
+		C11FB2C11CB0DC44006A59B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2C01CB0DC44006A59B7 /* ViewController.swift */; };
+		C11FB2C41CB0DC44006A59B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11FB2C21CB0DC44006A59B7 /* Main.storyboard */; };
+		C11FB2C71CB0DC45006A59B7 /* CollapsableList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2C51CB0DC44006A59B7 /* CollapsableList.xcdatamodeld */; };
+		C11FB2C91CB0DC45006A59B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11FB2C81CB0DC45006A59B7 /* Assets.xcassets */; };
+		C11FB2CC1CB0DC45006A59B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11FB2CA1CB0DC45006A59B7 /* LaunchScreen.storyboard */; };
+		C11FB2D71CB0DC46006A59B7 /* CollapsableListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2D61CB0DC46006A59B7 /* CollapsableListTests.swift */; };
+		C11FB2E21CB0DC46006A59B7 /* CollapsableListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2E11CB0DC46006A59B7 /* CollapsableListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C11FB2D31CB0DC46006A59B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11FB2B31CB0DC3E006A59B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11FB2BA1CB0DC3F006A59B7;
+			remoteInfo = CollapsableList;
+		};
+		C11FB2DE1CB0DC46006A59B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C11FB2B31CB0DC3E006A59B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C11FB2BA1CB0DC3F006A59B7;
+			remoteInfo = CollapsableList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C11FB2BB1CB0DC3F006A59B7 /* CollapsableList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsableList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11FB2BE1CB0DC44006A59B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C11FB2C01CB0DC44006A59B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C11FB2C31CB0DC44006A59B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C11FB2C61CB0DC44006A59B7 /* CollapsableList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollapsableList.xcdatamodel; sourceTree = "<group>"; };
+		C11FB2C81CB0DC45006A59B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C11FB2CB1CB0DC45006A59B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C11FB2CD1CB0DC45006A59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11FB2D21CB0DC46006A59B7 /* CollapsableListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11FB2D61CB0DC46006A59B7 /* CollapsableListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableListTests.swift; sourceTree = "<group>"; };
+		C11FB2D81CB0DC46006A59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11FB2DD1CB0DC46006A59B7 /* CollapsableListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C11FB2E11CB0DC46006A59B7 /* CollapsableListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableListUITests.swift; sourceTree = "<group>"; };
+		C11FB2E31CB0DC46006A59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C11FB2B81CB0DC3F006A59B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2CF1CB0DC46006A59B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2DA1CB0DC46006A59B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C11FB2B21CB0DC3E006A59B7 = {
+			isa = PBXGroup;
+			children = (
+				C11FB2BD1CB0DC43006A59B7 /* CollapsableList */,
+				C11FB2D51CB0DC46006A59B7 /* CollapsableListTests */,
+				C11FB2E01CB0DC46006A59B7 /* CollapsableListUITests */,
+				C11FB2BC1CB0DC3F006A59B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C11FB2BC1CB0DC3F006A59B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2BB1CB0DC3F006A59B7 /* CollapsableList.app */,
+				C11FB2D21CB0DC46006A59B7 /* CollapsableListTests.xctest */,
+				C11FB2DD1CB0DC46006A59B7 /* CollapsableListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C11FB2BD1CB0DC43006A59B7 /* CollapsableList */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2BE1CB0DC44006A59B7 /* AppDelegate.swift */,
+				C11FB2C01CB0DC44006A59B7 /* ViewController.swift */,
+				C11FB2C21CB0DC44006A59B7 /* Main.storyboard */,
+				C11FB2C81CB0DC45006A59B7 /* Assets.xcassets */,
+				C11FB2CA1CB0DC45006A59B7 /* LaunchScreen.storyboard */,
+				C11FB2CD1CB0DC45006A59B7 /* Info.plist */,
+				C11FB2C51CB0DC44006A59B7 /* CollapsableList.xcdatamodeld */,
+			);
+			path = CollapsableList;
+			sourceTree = "<group>";
+		};
+		C11FB2D51CB0DC46006A59B7 /* CollapsableListTests */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2D61CB0DC46006A59B7 /* CollapsableListTests.swift */,
+				C11FB2D81CB0DC46006A59B7 /* Info.plist */,
+			);
+			path = CollapsableListTests;
+			sourceTree = "<group>";
+		};
+		C11FB2E01CB0DC46006A59B7 /* CollapsableListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2E11CB0DC46006A59B7 /* CollapsableListUITests.swift */,
+				C11FB2E31CB0DC46006A59B7 /* Info.plist */,
+			);
+			path = CollapsableListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C11FB2BA1CB0DC3F006A59B7 /* CollapsableList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11FB2E61CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableList" */;
+			buildPhases = (
+				C11FB2B71CB0DC3F006A59B7 /* Sources */,
+				C11FB2B81CB0DC3F006A59B7 /* Frameworks */,
+				C11FB2B91CB0DC3F006A59B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsableList;
+			productName = CollapsableList;
+			productReference = C11FB2BB1CB0DC3F006A59B7 /* CollapsableList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C11FB2D11CB0DC46006A59B7 /* CollapsableListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11FB2E91CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListTests" */;
+			buildPhases = (
+				C11FB2CE1CB0DC46006A59B7 /* Sources */,
+				C11FB2CF1CB0DC46006A59B7 /* Frameworks */,
+				C11FB2D01CB0DC46006A59B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11FB2D41CB0DC46006A59B7 /* PBXTargetDependency */,
+			);
+			name = CollapsableListTests;
+			productName = CollapsableListTests;
+			productReference = C11FB2D21CB0DC46006A59B7 /* CollapsableListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C11FB2DC1CB0DC46006A59B7 /* CollapsableListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C11FB2EC1CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListUITests" */;
+			buildPhases = (
+				C11FB2D91CB0DC46006A59B7 /* Sources */,
+				C11FB2DA1CB0DC46006A59B7 /* Frameworks */,
+				C11FB2DB1CB0DC46006A59B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C11FB2DF1CB0DC46006A59B7 /* PBXTargetDependency */,
+			);
+			name = CollapsableListUITests;
+			productName = CollapsableListUITests;
+			productReference = C11FB2DD1CB0DC46006A59B7 /* CollapsableListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C11FB2B31CB0DC3E006A59B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Amarenthe;
+				TargetAttributes = {
+					C11FB2BA1CB0DC3F006A59B7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C11FB2D11CB0DC46006A59B7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C11FB2BA1CB0DC3F006A59B7;
+					};
+					C11FB2DC1CB0DC46006A59B7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C11FB2BA1CB0DC3F006A59B7;
+					};
+				};
+			};
+			buildConfigurationList = C11FB2B61CB0DC3E006A59B7 /* Build configuration list for PBXProject "CollapsableList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C11FB2B21CB0DC3E006A59B7;
+			productRefGroup = C11FB2BC1CB0DC3F006A59B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C11FB2BA1CB0DC3F006A59B7 /* CollapsableList */,
+				C11FB2D11CB0DC46006A59B7 /* CollapsableListTests */,
+				C11FB2DC1CB0DC46006A59B7 /* CollapsableListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C11FB2B91CB0DC3F006A59B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11FB2CC1CB0DC45006A59B7 /* LaunchScreen.storyboard in Resources */,
+				C11FB2C91CB0DC45006A59B7 /* Assets.xcassets in Resources */,
+				C11FB2C41CB0DC44006A59B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2D01CB0DC46006A59B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2DB1CB0DC46006A59B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C11FB2B71CB0DC3F006A59B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11FB2C71CB0DC45006A59B7 /* CollapsableList.xcdatamodeld in Sources */,
+				C11FB2C11CB0DC44006A59B7 /* ViewController.swift in Sources */,
+				C11FB2BF1CB0DC44006A59B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2CE1CB0DC46006A59B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11FB2D71CB0DC46006A59B7 /* CollapsableListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C11FB2D91CB0DC46006A59B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11FB2E21CB0DC46006A59B7 /* CollapsableListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C11FB2D41CB0DC46006A59B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11FB2BA1CB0DC3F006A59B7 /* CollapsableList */;
+			targetProxy = C11FB2D31CB0DC46006A59B7 /* PBXContainerItemProxy */;
+		};
+		C11FB2DF1CB0DC46006A59B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C11FB2BA1CB0DC3F006A59B7 /* CollapsableList */;
+			targetProxy = C11FB2DE1CB0DC46006A59B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C11FB2C21CB0DC44006A59B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11FB2C31CB0DC44006A59B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C11FB2CA1CB0DC45006A59B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C11FB2CB1CB0DC45006A59B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C11FB2E41CB0DC46006A59B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C11FB2E51CB0DC46006A59B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C11FB2E71CB0DC46006A59B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollapsableList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C11FB2E81CB0DC46006A59B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollapsableList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C11FB2EA1CB0DC46006A59B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollapsableListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableList.app/CollapsableList";
+			};
+			name = Debug;
+		};
+		C11FB2EB1CB0DC46006A59B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollapsableListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollapsableList.app/CollapsableList";
+			};
+			name = Release;
+		};
+		C11FB2ED1CB0DC46006A59B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollapsableListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollapsableList;
+			};
+			name = Debug;
+		};
+		C11FB2EE1CB0DC46006A59B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollapsableListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollapsableList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C11FB2B61CB0DC3E006A59B7 /* Build configuration list for PBXProject "CollapsableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11FB2E41CB0DC46006A59B7 /* Debug */,
+				C11FB2E51CB0DC46006A59B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C11FB2E61CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11FB2E71CB0DC46006A59B7 /* Debug */,
+				C11FB2E81CB0DC46006A59B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11FB2E91CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11FB2EA1CB0DC46006A59B7 /* Debug */,
+				C11FB2EB1CB0DC46006A59B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C11FB2EC1CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C11FB2ED1CB0DC46006A59B7 /* Debug */,
+				C11FB2EE1CB0DC46006A59B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C11FB2C51CB0DC44006A59B7 /* CollapsableList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C11FB2C61CB0DC44006A59B7 /* CollapsableList.xcdatamodel */,
+			);
+			currentVersion = C11FB2C61CB0DC44006A59B7 /* CollapsableList.xcdatamodel */;
+			path = CollapsableList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C11FB2B31CB0DC3E006A59B7 /* Project object */;
+}

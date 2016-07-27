@@ -10,4 +10,6 @@ import UIKit
 
 class CollectionHeader: UICollectionReusableView {
         
+    @IBOutlet weak var titleBtn: UIButton!
+    
 }

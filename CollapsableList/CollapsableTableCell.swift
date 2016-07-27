@@ -8,8 +8,10 @@
 
 import UIKit
 
-class CollapsableTableCellTableViewCell: UITableViewCell {
+class CollapsableTableCell: UITableViewCell {
 
+    @IBOutlet weak var lblName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

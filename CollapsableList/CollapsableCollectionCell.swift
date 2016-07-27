@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollapsableCollectionCellCollectionViewCell: UICollectionViewCell {
+class CollapsableCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var lblName: UILabel!
 }

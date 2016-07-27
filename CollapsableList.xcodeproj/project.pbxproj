@@ -15,6 +15,11 @@
 		C11FB2CC1CB0DC45006A59B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11FB2CA1CB0DC45006A59B7 /* LaunchScreen.storyboard */; };
 		C11FB2D71CB0DC46006A59B7 /* CollapsableListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2D61CB0DC46006A59B7 /* CollapsableListTests.swift */; };
 		C11FB2E21CB0DC46006A59B7 /* CollapsableListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2E11CB0DC46006A59B7 /* CollapsableListUITests.swift */; };
+		C11FB2F41CB18A56006A59B7 /* CollapseableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F31CB18A56006A59B7 /* CollapseableTableView.swift */; };
+		C11FB2F81CB18C24006A59B7 /* CollapsableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */; };
+		C11FB2FA1CB18F55006A59B7 /* CollapsableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F91CB18F55006A59B7 /* CollapsableCollectionCell.swift */; };
+		C1F3FA4A1CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3FA491CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift */; };
+		C1F3FA4C1CB1F8690039FCB8 /* CollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3FA4B1CB1F8690039FCB8 /* CollectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C11FB2DD1CB0DC46006A59B7 /* CollapsableListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollapsableListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11FB2E11CB0DC46006A59B7 /* CollapsableListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsableListUITests.swift; sourceTree = "<group>"; };
 		C11FB2E31CB0DC46006A59B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11FB2F31CB18A56006A59B7 /* CollapseableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapseableTableView.swift; sourceTree = "<group>"; };
+		C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableTableCell.swift; sourceTree = "<group>"; };
+		C11FB2F91CB18F55006A59B7 /* CollapsableCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableCollectionCell.swift; sourceTree = "<group>"; };
+		C1F3FA491CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableCollectionVC.swift; sourceTree = "<group>"; };
+		C1F3FA4B1CB1F8690039FCB8 /* CollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,8 @@
 		C11FB2BD1CB0DC43006A59B7 /* CollapsableList */ = {
 			isa = PBXGroup;
 			children = (
+				C11FB2F01CB17FFD006A59B7 /* TableView */,
+				C11FB2EF1CB17FD1006A59B7 /* CollectionView */,
 				C11FB2BE1CB0DC44006A59B7 /* AppDelegate.swift */,
 				C11FB2C01CB0DC44006A59B7 /* ViewController.swift */,
 				C11FB2C21CB0DC44006A59B7 /* Main.storyboard */,
@@ -126,6 +138,25 @@
 				C11FB2E31CB0DC46006A59B7 /* Info.plist */,
 			);
 			path = CollapsableListUITests;
+			sourceTree = "<group>";
+		};
+		C11FB2EF1CB17FD1006A59B7 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2F91CB18F55006A59B7 /* CollapsableCollectionCell.swift */,
+				C1F3FA491CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift */,
+				C1F3FA4B1CB1F8690039FCB8 /* CollectionHeader.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		C11FB2F01CB17FFD006A59B7 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2F31CB18A56006A59B7 /* CollapseableTableView.swift */,
+				C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11FB2F41CB18A56006A59B7 /* CollapseableTableView.swift in Sources */,
 				C11FB2C71CB0DC45006A59B7 /* CollapsableList.xcdatamodeld in Sources */,
+				C11FB2FA1CB18F55006A59B7 /* CollapsableCollectionCell.swift in Sources */,
 				C11FB2C11CB0DC44006A59B7 /* ViewController.swift in Sources */,
 				C11FB2BF1CB0DC44006A59B7 /* AppDelegate.swift in Sources */,
+				C1F3FA4A1CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift in Sources */,
+				C1F3FA4C1CB1F8690039FCB8 /* CollectionHeader.swift in Sources */,
+				C11FB2F81CB18C24006A59B7 /* CollapsableTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +522,7 @@
 				C11FB2E81CB0DC46006A59B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11FB2E91CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +531,7 @@
 				C11FB2EB1CB0DC46006A59B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C11FB2EC1CB0DC46006A59B7 /* Build configuration list for PBXNativeTarget "CollapsableListUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +540,7 @@
 				C11FB2EE1CB0DC46006A59B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F246ED73A5389E776C035192771ADDE0C816280",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F246ED73A5389E776C035192771ADDE0C816280" : 0,
+    "BF04580435C0EED2621276507D6B66DC828849C2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01B54CF9-9444-4B88-BAE5-8CBDE5A7DB03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F246ED73A5389E776C035192771ADDE0C816280" : "CollapsableList\/",
+    "BF04580435C0EED2621276507D6B66DC828849C2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CollapsableList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CollapsableList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/amarenthe\/Collapsable.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F246ED73A5389E776C035192771ADDE0C816280"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/amarenthe\/CollapsableMenu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BF04580435C0EED2621276507D6B66DC828849C2"
+    }
+  ]
+}

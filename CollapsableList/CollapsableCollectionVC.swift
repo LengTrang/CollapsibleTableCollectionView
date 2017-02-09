@@ -17,15 +17,15 @@ class CollapsableCollectionVC: UIViewController, UICollectionViewDelegate, UICol
     let headerThree : NSArray = ["C1","C2"]
     
     @IBOutlet weak var collectionView: UICollectionView!
-    var headerCount : NSMutableArray = []
+    var headerCountTemp : NSMutableArray = []
     var
-    headerCountConst : NSMutableArray = []
+    headerCount : NSMutableArray = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.headerCountTemp = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
         self.headerCount = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
-        self.headerCountConst = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
 
         // Do any additional setup after loading the view.
     }
@@ -40,7 +40,7 @@ class CollapsableCollectionVC: UIViewController, UICollectionViewDelegate, UICol
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.headerCount[section] as! Int
+        return self.headerCountTemp[section] as! Int
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -81,7 +81,7 @@ class CollapsableCollectionVC: UIViewController, UICollectionViewDelegate, UICol
         let temp = sender as! UIButton
         let index = NSIndexSet(index: temp.tag)
         
-        self.headerCount[temp.tag] = self.headerCount[temp.tag].intValue == 0 ? self.headerCountConst[temp.tag] : 0
+        self.headerCountTemp[temp.tag] = self.headerCountTemp[temp.tag].intValue == 0 ? self.headerCount[temp.tag] : 0
         
         self.collectionView.reloadSections(index)
     }

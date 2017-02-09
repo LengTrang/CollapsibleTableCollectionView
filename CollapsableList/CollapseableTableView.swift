@@ -16,21 +16,15 @@ class CollapseableTableView: UITableViewController {
     let headerTwo : NSArray = ["B1", "B2", "B3"]
     let headerThree : NSArray = ["C1","C2", "C3", "C4"]
     
-    var headerCount : NSMutableArray = []
+    var headerCountTemp : NSMutableArray = []
     var
-    headerCountConst : NSMutableArray = []
+    headerCount : NSMutableArray = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.headerCountTemp = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
         self.headerCount = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
-        self.headerCountConst = [self.headerOne.count, self.headerTwo.count, self.headerThree.count]
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -47,7 +41,7 @@ class CollapseableTableView: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.headerCount[section] as! Int
+        return self.headerCountTemp[section] as! Int
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -75,7 +69,7 @@ class CollapseableTableView: UITableViewController {
         let button: UIButton = UIButton(frame: CGRectMake(0, 0, self.view.frame.size.width, 50))
         button.setTitle("\(self.headerList[section])", forState: UIControlState.Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
-        button.addTarget(self, action: #selector(CollapsableCollectionVC.headerEvent(_:)), forControlEvents: UIControlEvents.TouchUpInside)
+        button.addTarget(self, action: #selector(CollapseableTableView.headerEvent(_:)), forControlEvents: UIControlEvents.TouchUpInside)
         button.backgroundColor = UIColor.blueColor()
         button.tag = section
         
@@ -90,7 +84,7 @@ class CollapseableTableView: UITableViewController {
         let temp = sender as! UIButton
         let index = NSIndexSet(index: temp.tag)
         
-        self.headerCount[temp.tag] = self.headerCount[temp.tag].intValue == 0 ? self.headerCountConst[temp.tag] : 0
+        self.headerCountTemp[temp.tag] = self.headerCountTemp[temp.tag].intValue == 0 ? self.headerCount[temp.tag] : 0
         
         self.tableView.reloadSections(index, withRowAnimation: UITableViewRowAnimation.None)
     }

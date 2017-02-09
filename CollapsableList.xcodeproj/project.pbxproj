@@ -18,6 +18,11 @@
 		C11FB2F41CB18A56006A59B7 /* CollapseableTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F31CB18A56006A59B7 /* CollapseableTableView.swift */; };
 		C11FB2F81CB18C24006A59B7 /* CollapsableTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */; };
 		C11FB2FA1CB18F55006A59B7 /* CollapsableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB2F91CB18F55006A59B7 /* CollapsableCollectionCell.swift */; };
+		C19BF6C01D483C26007BD598 /* ObjCTblVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BF6BF1D483C26007BD598 /* ObjCTblVC.m */; };
+		C19BF6C31D483C73007BD598 /* ObjCTblCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BF6C21D483C73007BD598 /* ObjCTblCell.m */; };
+		C19BF6C71D483D09007BD598 /* ObjCColVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BF6C61D483D09007BD598 /* ObjCColVC.m */; };
+		C19BF6CB1D483D5A007BD598 /* ObjCColHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C19BF6CA1D483D5A007BD598 /* ObjCColHeader.m */; };
+		C1BD0B931D6A8CCF004CC1E5 /* ObjCCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C1BD0B921D6A8CCF004CC1E5 /* ObjCCollectionCell.m */; };
 		C1F3FA4A1CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3FA491CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift */; };
 		C1F3FA4C1CB1F8690039FCB8 /* CollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3FA4B1CB1F8690039FCB8 /* CollectionHeader.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +62,16 @@
 		C11FB2F31CB18A56006A59B7 /* CollapseableTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapseableTableView.swift; sourceTree = "<group>"; };
 		C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableTableCell.swift; sourceTree = "<group>"; };
 		C11FB2F91CB18F55006A59B7 /* CollapsableCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableCollectionCell.swift; sourceTree = "<group>"; };
+		C19BF6BE1D483C26007BD598 /* ObjCTblVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCTblVC.h; sourceTree = "<group>"; };
+		C19BF6BF1D483C26007BD598 /* ObjCTblVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCTblVC.m; sourceTree = "<group>"; };
+		C19BF6C11D483C73007BD598 /* ObjCTblCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCTblCell.h; sourceTree = "<group>"; };
+		C19BF6C21D483C73007BD598 /* ObjCTblCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCTblCell.m; sourceTree = "<group>"; };
+		C19BF6C51D483D09007BD598 /* ObjCColVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCColVC.h; sourceTree = "<group>"; };
+		C19BF6C61D483D09007BD598 /* ObjCColVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCColVC.m; sourceTree = "<group>"; };
+		C19BF6C91D483D5A007BD598 /* ObjCColHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCColHeader.h; sourceTree = "<group>"; };
+		C19BF6CA1D483D5A007BD598 /* ObjCColHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCColHeader.m; sourceTree = "<group>"; };
+		C1BD0B911D6A8CCF004CC1E5 /* ObjCCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCCollectionCell.h; sourceTree = "<group>"; };
+		C1BD0B921D6A8CCF004CC1E5 /* ObjCCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCCollectionCell.m; sourceTree = "<group>"; };
 		C1F3FA491CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsableCollectionVC.swift; sourceTree = "<group>"; };
 		C1F3FA4B1CB1F8690039FCB8 /* CollectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,10 +124,9 @@
 		C11FB2BD1CB0DC43006A59B7 /* CollapsableList */ = {
 			isa = PBXGroup;
 			children = (
-				C11FB2F01CB17FFD006A59B7 /* TableView */,
-				C11FB2EF1CB17FD1006A59B7 /* CollectionView */,
 				C11FB2BE1CB0DC44006A59B7 /* AppDelegate.swift */,
-				C11FB2C01CB0DC44006A59B7 /* ViewController.swift */,
+				C19BF6BD1D483B6E007BD598 /* ObjC */,
+				C19BF6BC1D4839F6007BD598 /* SWIFT */,
 				C11FB2C21CB0DC44006A59B7 /* Main.storyboard */,
 				C11FB2C81CB0DC45006A59B7 /* Assets.xcassets */,
 				C11FB2CA1CB0DC45006A59B7 /* LaunchScreen.storyboard */,
@@ -157,6 +171,49 @@
 				C11FB2F71CB18C24006A59B7 /* CollapsableTableCell.swift */,
 			);
 			name = TableView;
+			sourceTree = "<group>";
+		};
+		C19BF6BC1D4839F6007BD598 /* SWIFT */ = {
+			isa = PBXGroup;
+			children = (
+				C11FB2C01CB0DC44006A59B7 /* ViewController.swift */,
+				C11FB2F01CB17FFD006A59B7 /* TableView */,
+				C11FB2EF1CB17FD1006A59B7 /* CollectionView */,
+			);
+			name = SWIFT;
+			sourceTree = "<group>";
+		};
+		C19BF6BD1D483B6E007BD598 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				C19BF6C81D483D10007BD598 /* CollectionView */,
+				C19BF6C41D483CB4007BD598 /* TableView */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		C19BF6C41D483CB4007BD598 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C19BF6BE1D483C26007BD598 /* ObjCTblVC.h */,
+				C19BF6BF1D483C26007BD598 /* ObjCTblVC.m */,
+				C19BF6C11D483C73007BD598 /* ObjCTblCell.h */,
+				C19BF6C21D483C73007BD598 /* ObjCTblCell.m */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		C19BF6C81D483D10007BD598 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C19BF6C51D483D09007BD598 /* ObjCColVC.h */,
+				C19BF6C61D483D09007BD598 /* ObjCColVC.m */,
+				C19BF6C91D483D5A007BD598 /* ObjCColHeader.h */,
+				C19BF6CA1D483D5A007BD598 /* ObjCColHeader.m */,
+				C1BD0B911D6A8CCF004CC1E5 /* ObjCCollectionCell.h */,
+				C1BD0B921D6A8CCF004CC1E5 /* ObjCCollectionCell.m */,
+			);
+			name = CollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +284,7 @@
 				TargetAttributes = {
 					C11FB2BA1CB0DC3F006A59B7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 682P772SZT;
 					};
 					C11FB2D11CB0DC46006A59B7 = {
 						CreatedOnToolsVersion = 7.3;
@@ -291,13 +349,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C11FB2F41CB18A56006A59B7 /* CollapseableTableView.swift in Sources */,
+				C19BF6C71D483D09007BD598 /* ObjCColVC.m in Sources */,
+				C1BD0B931D6A8CCF004CC1E5 /* ObjCCollectionCell.m in Sources */,
 				C11FB2C71CB0DC45006A59B7 /* CollapsableList.xcdatamodeld in Sources */,
 				C11FB2FA1CB18F55006A59B7 /* CollapsableCollectionCell.swift in Sources */,
 				C11FB2C11CB0DC44006A59B7 /* ViewController.swift in Sources */,
+				C19BF6C31D483C73007BD598 /* ObjCTblCell.m in Sources */,
 				C11FB2BF1CB0DC44006A59B7 /* AppDelegate.swift in Sources */,
+				C19BF6C01D483C26007BD598 /* ObjCTblVC.m in Sources */,
 				C1F3FA4A1CB1DF6B0039FCB8 /* CollapsableCollectionVC.swift in Sources */,
 				C1F3FA4C1CB1F8690039FCB8 /* CollectionHeader.swift in Sources */,
 				C11FB2F81CB18C24006A59B7 /* CollapsableTableCell.swift in Sources */,
+				C19BF6CB1D483D5A007BD598 /* ObjCColHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +502,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CollapsableList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -450,6 +517,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CollapsableList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = amarenthe.CollapsableList;
